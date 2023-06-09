@@ -1,0 +1,6 @@
+First_Name = ["Ravi", "Prashanth", "Sai","Praveen"]
+Last_Name = ["Kiran","Varun","Krishna","Kumar"]
+
+Name = [x + " " + y for x in First_Name for y in Last_Name]
+
+print(Name)
